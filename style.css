@@ -273,9 +273,10 @@ li {
 }
 
 
-/* .pippy {
-    width: ;
-} */
+.pippy {
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 .about {
     padding-top: 15px;
