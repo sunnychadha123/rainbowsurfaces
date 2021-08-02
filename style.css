@@ -69,7 +69,7 @@ margin-left: 20px;*/
 
 nav {
     width: 100%;
-    z-index: 100 !important;
+    z-index: 90 !important;
     position: fixed !important;
     top: 0;
     left: 0;
@@ -326,6 +326,10 @@ li {
     object-fit: cover;
 }
 
+.snipcart-modal__container {
+    z-index: 99 !important;
+}
+
 
 /* * {
     padding: 0;
@@ -410,16 +414,28 @@ button [type="addcart"]:hover {
 }
 
 .mainh5 {
-    font-size: 50px
+    font-size: 50px;
 }
 
-.tomatopic {
+.mainP {
+    font-size: 30px;
+}
+
+.maincap1 {
+    background-color: #07070731;
+}
+
+
+/* .tomatopic {
     top: 30px;
-    font-size: 40px;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .borderpic {
     border-style: solid;
+    bottom: initial;
 }
 
 @media (max-width: 450.8px) {
@@ -430,4 +446,4 @@ button [type="addcart"]:hover {
         top: 40px;
         font-size: 20px;
     }
-}
+} */
