@@ -413,37 +413,81 @@ button [type="addcart"]:hover {
     border: none;
 }
 
+.banner {
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    padding-top: 7px;
+    background-color: #A40206;
+    color: white;
+}
+
 .mainh5 {
-    font-size: 50px;
+    font-size: 40px;
+    /* font-family: 'Style Script', cursive; */
+    font-family: 'Acme', sans-serif;
 }
 
 .mainP {
-    font-size: 30px;
+    font-size: 25px;
+    /* font-family: 'Style Script', cursive; */
+    font-family: 'Acme', sans-serif;
 }
 
 .maincap1 {
-    background-color: #07070731;
+    background-color: #07070700;
 }
 
-
-/* .tomatopic {
+.tomatoPic {
     top: 30px;
-    font-size: 30px;
-    padding: 0px;
-    margin: 0px;
+    right: 70%;
+    width: 550px;
 }
 
-.borderpic {
-    border-style: solid;
-    bottom: initial;
+.vegtablePic {
+    top: 30px;
+    width: 550px;
+}
+
+.asparagusPic {
+    top: 20%;
+    left: 50%;
+    width: 550px;
+}
+
+.pinkPic {
+    top: 20%;
+    left: 60%;
+    width: 550px;
 }
 
 @media (max-width: 450.8px) {
     .mainh5 {
-        font-size: 30px
+        font-size: 32px;
+        /* font-family: 'Style Script', cursive; */
+        font-family: 'Acme', sans-serif;
     }
-    .tomatopic {
-        top: 40px;
+    .mainP {
         font-size: 20px;
+        /* font-family: 'Style Script', cursive; */
+        font-family: 'Acme', sans-serif;
     }
-} */
+    .tomatoPic {
+        top: 30px;
+        right: 0%;
+        width: 300px;
+    }
+    .vegtablePic {
+        top: 30px;
+    }
+    .asparagusPic {
+        top: 20%;
+        left: 20%;
+    }
+    .banner {
+        margin-bottom: 0px;
+        border-bottom: 0px;
+        padding-top: 7px;
+        background-color: #A40206;
+        color: white;
+    }
+}
